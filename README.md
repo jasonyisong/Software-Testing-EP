@@ -1,6 +1,6 @@
 # Software-Testing-EP
 
-Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) (Dr. Joe Timoney) 
+Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) by Dr. Joe Timoney
 
 # Equivalence Partitions
 
@@ -18,12 +18,10 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) (Dr. Joe Timoney)
 
 | Parameter    | Equivalence Partition |         |
 |--------------|-----------------------|---------|
-| deposit      | (*)Long.MIN_VALUE..0  | Input   |
+| Deposit      | (*)Long.MIN_VALUE..0  | Input   |
 |              | 1..100                |         |
 |              | 101..1000             |         |
 |              | 1001..Long.MAX_VALUE  |         |
-
-
 
 | Parameter    | Equivalence Patition  |         |
 |--------------|-----------------------|---------|
@@ -34,6 +32,19 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) (Dr. Joe Timoney)
 
 
 # 2. Identify test coverage items
+
+| TCI  | Parameter    | Equivalence Partition | Test Case              |
+|------|--------------|-----------------------|------------------------|
+| EP1* | Deposit      | (*)Long.MIN_VALUE..0  | To be completed later  |
+| EP2  |              | 1..100                |                        |
+| EP3  |              | 101..1000             |                        |
+| EP4  |              | 1001..Long.MAX_VALUE  |                        |
+| EP5  | Return Value | 0                     |                        |
+| EP6  |              | 0.30%                 |                        |
+| EP7  |              | 0.50%                 |                        |
+| EP8  |              | 0.70%                 |                        |
+
+
 # 3. Identify test cases
 # 4. Verify test design to ensure completeness
 # 5. Implementation of tests
