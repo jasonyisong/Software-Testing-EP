@@ -2,7 +2,7 @@
 
 # Equivalence Partitions
 
-> ST ACTIVITIES
+- ST ACTIVITIES
 
 1. Analysis of SW / spec that informs the test
 2. Identify test coverage items
@@ -12,4 +12,4 @@
 6. Execution of tests
 7. Examination of test results
 
-> 
+- 
