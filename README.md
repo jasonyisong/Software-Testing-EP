@@ -23,7 +23,10 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) (Dr. Joe Timoney)
 |              | 101..1000             |         |
 |              | 1001..Long.MAX_VALUE  |         |
 
+
+
 | Parameter    | Equivalence Patition  |         |
+|--------------|-----------------------|---------|
 | Return Value | 0                     | Output  |
 |              | 0.30%                 |         |
 |              | 0.50%                 |         |
