@@ -16,18 +16,20 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) (Dr. Joe Timoney)
 
 # 1. Analysis of SW / spec that informs the test
 
-| Parameter             | Equivalence Partition  |
-| --------------------- | ---------------------- |
-| deposit               | (\*)Long.MIN\_VALUE..0 |
-| 1..100                |
-| 101..1000             |
-| 1001..Long.MAX\_VALUE |
-|                       |                        |
-| Parameter             | Equivalence Patition   |
-| Return Value          | 0                      |
-| 0.30%                 |
-| 0.50%                 |
-| 0.70%                 |
+| Parameter    | Equivalence Partition |         |
+|--------------|-----------------------|---------|
+| deposit      | (*)Long.MIN_VALUE..0  | Input   |
+|              | 1..100                |         |
+|              | 101..1000             |         |
+|              | 1001..Long.MAX_VALUE  |         |
+|              |                       |         |
+| Parameter    | Equivalence Patition  |         |
+| Return Value | 0                     | Output  |
+|              | 0.30%                 |         |
+|              | 0.50%                 |         |
+|              | 0.70%                 |         |
+|              |                       |         |
+
 
 
 # 2. Identify test coverage items
