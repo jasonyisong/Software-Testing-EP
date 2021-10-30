@@ -1,5 +1,7 @@
 # Software-Testing-EP
 
+Maynooth Universtiy SOFTWARE TESTING (CS265) Study Notes
+
 # Equivalence Partitions
 
 - ST ACTIVITIES
@@ -12,4 +14,4 @@
 6. Execution of tests
 7. Examination of test results
 
-- 
+> 1. Analysis of SW / spec that informs the test
