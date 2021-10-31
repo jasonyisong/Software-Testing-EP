@@ -195,7 +195,7 @@ Weaknesses:
 
 # KEY POINTS ON EP
 
-EP is used to test basic software functionality
+- EP is used to test basic software functionality
 - Each ranges of values with 'equivalent processing' is a test coverage item
 - A representative value from each range is selected as test data
 
