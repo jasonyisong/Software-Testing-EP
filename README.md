@@ -75,7 +75,7 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) by Dr. Joe Timoney
 | T1.1 | EP2,6       | 50                | 0.30%         |
 | T1.2 | EP3,7       | 150               | 0.50%         |
 | T1.3 | EP4,8       | 2000              | 0.70%         |
-
+| T1.4 | EP1*,5      | -100              | 0             |
 
 
 # 4. Verify test design to ensure completeness
