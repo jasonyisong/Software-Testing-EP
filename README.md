@@ -150,6 +150,8 @@ public class InterestCalculatorTest {
 
 # 7. Examination of test results
 
+Console log
+
 ```text
 [RemoteTestNG] detected TestNG version 7.4.0
 PASSED: test("T1.2", 150, 0.005)
