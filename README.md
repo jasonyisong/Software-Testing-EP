@@ -1,6 +1,6 @@
 # Software-Testing-EP
 
-Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) by Dr. Joe Timoney
+Study Notes - Maynooth Universtiy SOFTWARE TESTING by Dr. Joe Timoney
 
 # Equivalence Partitions
 
@@ -119,7 +119,7 @@ Java + TestNG
 Test automation with dataproviders
 
 ```java
-package cs265;
+package trade;
 
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
