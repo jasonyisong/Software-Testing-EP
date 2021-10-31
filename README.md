@@ -199,3 +199,6 @@ EP is used to test basic software functionality
 - Each ranges of values with 'equivalent processing' is a test coverage item
 - A representative value from each range is selected as test data
 
+# My thoughts
+
+It is very suitable for the core computing function test of trading system
