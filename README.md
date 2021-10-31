@@ -1,6 +1,6 @@
 # Software-Testing-EP
 
-Study Notes - Maynooth Universtiy SOFTWARE TESTING by Dr. Joe Timoney
+Study Notes - SOFTWARE TESTING of Maynooth Universtiy  by Dr. Joe Timoney
 
 # Equivalence Partitions
 
