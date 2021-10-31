@@ -201,4 +201,4 @@ EP is used to test basic software functionality
 
 # My thoughts
 
- > It is very suitable for the core computing function test of trading system
+It is very suitable for the core computing function test of trading system
