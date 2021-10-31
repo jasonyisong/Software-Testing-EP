@@ -14,7 +14,7 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) by Dr. Joe Timoney
 6. Execution of tests
 7. Examination of test results
 
-# Example
+# EP design case - example
 
 The bank customer enters how much money is deposited (represented as an integer) in a bank savings account. Based on the amount of money, the different interest rates are displayed:
 
