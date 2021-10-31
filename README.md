@@ -114,6 +114,10 @@ The initial balance of the account is €0 because of a lack of information. The
 
 # 6. Execution of tests
 
+Java + TestNG
+
+Test automation with dataproviders
+
 ```java
 package cs265;
 
@@ -146,6 +150,7 @@ public class InterestCalculatorTest {
 
 # 7. Examination of test results
 
+```text
 [RemoteTestNG] detected TestNG version 7.4.0
 PASSED: test("T1.2", 150, 0.005)
 PASSED: test("T1.4", -100, 0)
@@ -162,3 +167,5 @@ PASSED: test("T1.3", 2000, 0.007)
 Default suite
 Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
 ===============================================
+
+```text
