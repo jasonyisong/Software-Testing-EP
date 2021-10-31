@@ -76,6 +76,17 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) by Dr. Joe Timoney
 | T1.2 | EP3,7       | 150               | 0.50%         |
 | T1.3 | EP4,8       | 2000              | 0.70%         |
 
+
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+[Prototype table]
+
 # 4. Verify test design to ensure completeness
 # 5. Implementation of tests
 # 6. Execution of tests
