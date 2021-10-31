@@ -171,3 +171,13 @@ Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
 ===============================================
 
 ```
+
+
+# EP FAULT MODEL
+
+The equivalence partition fault model is where entire ranges of values are not processed correctly. 
+
+These faults can be associated with incorrect decisions in the code, or missing sections of functionality.
+
+By testing with at least one value from every equivalence partition, where every value should be
+processed in the same way, EP testing attempts to find these faults.
