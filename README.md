@@ -69,8 +69,8 @@ Study Notes - Maynooth Universtiy SOFTWARE TESTING (CS265) by Dr. Joe Timoney
 |              | 0.50%                 | 0.50%              |
 |              | 0.70%                 | 0.70%              |
 
-|      |             |            | Exp. Result   |
-| ID   | TCI Covered | Inputs<br/>Equivalence Value | Return Value  |
+
+| ID   | TCI Covered | Inputs<br/>Equivalence Value | Exp. Result<br/>Return Value  |
 |------|-------------|-------------------|---------------|
 | T1.1 | EP2,6       | 50                | 0.30%         |
 | T1.2 | EP3,7       | 150               | 0.50%         |
