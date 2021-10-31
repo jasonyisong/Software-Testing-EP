@@ -185,17 +185,17 @@ processed in the same way, EP testing attempts to find these faults.
 # STRENGTHS AND WEAKNESSES OF EP
 
 Strengths:
-• A good basic level of testing
-• Good for data processing applications where input can be easily identified, is distinct and allows for easy partitioning
-• Provides a structured means for identifying basic test coverage items.
+- A good basic level of testing
+- Good for data processing applications where input can be easily identified, is distinct and allows for easy partitioning
+- Provides a structured means for identifying basic test coverage items.
 
 Weaknesses:
-• No testing of correct processing on partition edges
-• No combination testing
+- No testing of correct processing on partition edges
+- No combination testing
 
 # KEY POINTS ON EP
 
 EP is used to test basic software functionality
-Each ranges of values with 'equivalent processing' is a test coverage item
-A representative value from each range is selected as test data
+- Each ranges of values with 'equivalent processing' is a test coverage item
+- A representative value from each range is selected as test data
 
