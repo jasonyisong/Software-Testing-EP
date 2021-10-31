@@ -104,6 +104,14 @@ The initial balance of the account is €0 because of a lack of information. The
 | EP8  |              | 0.70%                 | T1.3       |
 
 # 5. Implementation of tests
+
+| ID   | TCI Covered | Inputs<br/>Equivalence Value | Exp. Result<br/>Return Value  |
+|------|-------------|-------------------|---------------|
+| T1.1 | EP2,6       | 50                | 0.30%         |
+| T1.2 | EP3,7       | 150               | 0.50%         |
+| T1.3 | EP4,8       | 2000              | 0.70%         |
+| T1.4 | EP1*,5      | -100              | 0             |
+
 # 6. Execution of tests
 
 ```java
@@ -137,3 +145,20 @@ public class InterestCalculatorTest {
 ```
 
 # 7. Examination of test results
+
+[RemoteTestNG] detected TestNG version 7.4.0
+PASSED: test("T1.2", 150, 0.005)
+PASSED: test("T1.4", -100, 0)
+PASSED: test("T1.1", 50, 0.003)
+PASSED: test("T1.3", 2000, 0.007)
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
