@@ -91,6 +91,49 @@ The initial balance of the account is €0 because of a lack of information. The
 
 
 # 4. Verify test design to ensure completeness
+
+| TCI  | Parameter    | Equivalence Partition | Test Case  |
+|------|--------------|-----------------------|------------|
+| EP1* | Deposit      | (*)Long.MIN_VALUE..0  | T1.4       |
+| EP2  |              | 1..100                | T1.1       |
+| EP3  |              | 101..1000             | T1.2       |
+| EP4  |              | 1001..Long.MAX_VALUE  | T1.3       |
+| EP5  | Return Value | 0                     | T1.4       |
+| EP6  |              | 0.30%                 | T1.1       |
+| EP7  |              | 0.50%                 | T1.2       |
+| EP8  |              | 0.70%                 | T1.3       |
+
 # 5. Implementation of tests
 # 6. Execution of tests
+
+```java
+package cs265;
+
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
+import org.testng.annotations.DataProvider;
+
+public class InterestCalculatorTest {
+
+	// test data
+	private static Object[][] testData = new Object[][] {
+			// id, variable1, variable2, ... variableN, expected
+		    {"T1.1",	   50,		 0.003},
+			{"T1.2",  	  150, 		 0.005},
+			{"T1.3", 	 2000, 		 0.007}, 
+		    {"T1.4", 	 -100,    	     0},
+	};
+
+	@DataProvider(name = "data")
+	public Object[][] getTestData() {
+		return testData;
+	}
+
+	@Test(dataProvider = "data")
+	public void test(String id, double variable1,  double expected) {
+		 assertEquals(InterestCalculator.interestRate(variable1), expected);
+	}
+}
+```
+
 # 7. Examination of test results
