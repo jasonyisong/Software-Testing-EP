@@ -82,7 +82,7 @@ The initial balance of the account is €0 because of a lack of information. The
 |              | 0.70%                 | 0.70%              |
 
 
-| ID   | TCI Covered | Inputs<br/>Equivalence Value | Exp. Result<br/>Return Value  |
+| ID   | TCI Covered | Inputs<br/>Deposit | Exp. Result<br/>Return Value  |
 |------|-------------|-------------------|---------------|
 | T1.1 | EP2,6       | 50                | 0.30%         |
 | T1.2 | EP3,7       | 150               | 0.50%         |
