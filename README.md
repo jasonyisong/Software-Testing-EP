@@ -20,7 +20,9 @@ The bank customer enters how much money is deposited (represented as an integer)
 
 a) 0.3% interest rate if the amount is between €1 and €100.
 
-b) 0.5% interest rate if the amount is between €101 and €1000. c) 0.7% interest rate if the amount is above €1000.
+b) 0.5% interest rate if the amount is between €101 and €1000. 
+
+c) 0.7% interest rate if the amount is above €1000.
 
 The initial balance of the account is €0 because of a lack of information. The deposited amount must be a positive number. Any error leads to a return value of 0. 
 
