@@ -201,4 +201,6 @@ Weaknesses:
 
 # My thoughts
 
-It is very suitable for the core computing function test of trading system
+It is very suitable for the core computing function test of trading system.
+
+If we use APEX for development, we can use utPLSQL to do a similar test.
